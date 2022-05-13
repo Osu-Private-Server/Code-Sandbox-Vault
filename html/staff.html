@@ -37,17 +37,54 @@
 </div>
 {% endif %}
 
+<style>
+  .herobanner_ui {
+    margin-left:149.50px;
+    margin-right:149.50px;
+    width:1198px;
+  }
+  .herobanner_image{
+    background-image: url("../static/images/hero1.jpg");
+        width:1198px;
+    height:250px;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .ui-container {
+    text-align:center;
+    font-size:50px;
+  }
+</style>
+
 <div class="hero splash p-less is-fullheight-with-navbar" id="home-hero">
+  <div class="herobanner_ui">
+    <div class="herobanner_image">
+        <div class="ui-container">
+          <h1>Staff Members</h1>
+        </div>
+    </div>
+  </div>
   <div class="container flex">
     <div class="columns flex-vcenter">
       <div class="column flex-vcenter flex-lcenter is-size-2-desktop is-size-1-fullhd" id="title">
-        <span class="title is-spaced is-size-2-desktop is-size-1-fullhd">This is a list of the wonderful people who keep Rengo up and running and are involved with its community.</span>
+        <span class="title is-spaced is-size-2-desktop is-size-1-fullhd">This is a list of the wonderful people who keep Rengo up and running and are involved within this community.</span>
         <h2 class="subtitle">
-Testing
+Owner
         <br/>
-        <h1 class="title is-spaced is-size-2-desktop is-size-1-fullhd">Test</h1>
+        <!-- <h1 class="title is-spaced is-size-2-desktop is-size-1-fullhd">Test</h1> -->
         <h2 class="subtitle">
-Testing
+Developers
+        </h2>
+        <h2 class="subtitle">
+Moderators
+        </h2>
+        <h2 class="subtitle">
+BAT
         </h2>
       </div>
       <div class="column flex flex-lcenter" id="mascot">
